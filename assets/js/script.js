@@ -78,7 +78,7 @@ window.addEventListener('load', function() {
         $('li[data-ip="v4"]').addClass('active');
         $('li[data-ip="v6"]').removeClass('active');
     }
-    if ( getIpType === 'ipv6') {
+    else if ( getIpType === 'ipv6') {
         $('li[data-ip="v6"]').addClass('active');
         $('li[data-ip="v4"]').removeClass('active');
     }
