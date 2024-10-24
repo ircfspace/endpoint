@@ -4,4 +4,7 @@
 
 - https://ircfspace.github.io/endpoint/
 - https://github.com/ircfspace/endpoint/blob/main/ip.json
-- https://github.com/ircfspace/endpoint
+
+Sources:
+* [xs_filternet](https://t.me/xs_filternet)
+* [IRCF](https://t.me/ircfspace)
