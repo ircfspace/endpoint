@@ -6,5 +6,5 @@
 - https://github.com/ircfspace/endpoint/blob/main/ip.json
 
 Sources:
-* [xs_filternet](https://t.me/xs_filternet)
+* [xs_filternet](https://t.me/xsfilternet)
 * [IRCF](https://t.me/ircfspace)
