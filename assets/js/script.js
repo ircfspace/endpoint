@@ -14,7 +14,7 @@ function copyToClipboard(text, key) {
 
 function renderData(dataArray) {
   let html = "";
-  if (typeof dataArray === "undefined" || dataArray.length < 1) {
+  if (dataArray == null || dataArray.length < 1) {
     return false;
   }
   let x = 1;
