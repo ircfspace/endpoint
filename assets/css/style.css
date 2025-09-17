@@ -1,263 +1,269 @@
 body {
-	font: 14px vazir;
-	padding: 85px 0 0 0;
+  font: 14px vazir;
+  padding: 85px 0 0 0;
 }
 input,
 select,
 textarea {
-	direction: rtl;
-	text-align: right;
-	margin: 10px 0;
-	width: 100%;
-	resize: none;
+  direction: rtl;
+  text-align: right;
+  margin: 10px 0;
+  width: 100%;
+  resize: none;
 }
 button {
-	width: 100%;
+  width: 100%;
 }
 
 p {
-	font-size: 15px;
-	line-height: 27px;
+  font-size: 15px;
+  line-height: 27px;
 }
 ul li {
-	font-size: 15px;
-	line-height: 27px;
+  font-size: 15px;
+  line-height: 27px;
 }
 
 .navbar {
-	float: right;
-	width: 100%;
-	border-radius: 0;
-	background-color: #ff7900;
-	border: none;
-	box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-	padding: 22px 0;
-	margin: 0 0 30px 0;
-	position: fixed;
-	top: 0;
-	right: 0;
-	z-index: 100;
+  float: right;
+  width: 100%;
+  border-radius: 0;
+  background-color: #ff7900;
+  border: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  padding: 22px 0;
+  margin: 0 0 30px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
 }
 .navbar img {
-	float: right;
-	width: 32px;
-	height: 15px;
-	margin: 0 0 0 15px;
+  float: right;
+  width: 32px;
+  height: 15px;
+  margin: 0 0 0 15px;
 }
 .navbar h1 {
-	float: right;
-	margin: 0;
-	color: #ffffff;
-	font-size: 17px;
-	padding: 0;
+  float: right;
+  margin: 0;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 0;
 }
 
 .col-centered {
-	float: none;
-	margin: 0 auto;
+  float: none;
+  margin: 0 auto;
 }
 .col-centered h3 {
-	font-size: 22px;
-	margin: 20px 0;
+  font-size: 22px;
+  margin: 20px 0;
 }
 
 .dirLeft {
-	direction: ltr;
-	text-align: left;
+  direction: ltr;
+  text-align: left;
 }
 
 .alert {
-	margin: 20px 0;
+  margin: 20px 0;
 }
 .alert em {
-	font-style: normal;
+  font-style: normal;
 }
 
 .table {
-	margin: 0;
+  margin: 0;
 }
 .table tr:first-child td {
-	border-top: none;
+  border-top: none;
 }
 .table td em {
-	font-style: normal;
+  font-style: normal;
 }
 
 .nav-pills {
-	margin: 0 0 12px 0;
+  margin: 0 0 12px 0;
+  float: left;
 }
-.nav-pills>li a {
-	padding: 0 7px;
-	font-size: 12px;
-	border-radius: 25px;
-	color: #454545;
+.nav-pills > li {
+  float: left;
+  margin-right: 3px;
 }
-.nav-pills>li a:focus,
-.nav-pills>li a:hover,
-.nav-pills>li.active a,
-.nav-pills>li.active a:focus,
-.nav-pills>li.active a:hover {
-	background-color: #939393;
-	color: #fff;
+.nav-pills > li a {
+  padding: 0 7px;
+  font-size: 12px;
+  border-radius: 25px;
+  color: #454545;
+  float: left;
+}
+.nav-pills > li a:focus,
+.nav-pills > li a:hover,
+.nav-pills > li.active a,
+.nav-pills > li.active a:focus,
+.nav-pills > li.active a:hover {
+  background-color: #939393;
+  color: #fff;
 }
 
 .modal-header .close {
-    float: right;
-    width: auto;
-    margin: 0px 0 -7px 0;
-    font-size: 30px;
+  float: right;
+  width: auto;
+  margin: 0px 0 -7px 0;
+  font-size: 30px;
 }
 .modal-footer button {
-    float: right;
-    width: 50%;
-    margin-right: 0!important;
-    margin-bottom: 5px!important;
+  float: right;
+  width: 50%;
+  margin-right: 0 !important;
+  margin-bottom: 5px !important;
 }
 .modal-footer button:nth-child(odd) {
-    margin-left: 5px!important;
+  margin-left: 5px !important;
 }
 .modal-footer button:nth-child(even) {
-    width: calc(50% - 5px)
+  width: calc(50% - 5px);
 }
 .modal-body .alert {
-    margin: 0;
+  margin: 0;
 }
 .qrcode img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .modalBodyOverflow {
-	max-height: 63vh;
-	overflow: hidden;
-	overflow-y: auto;
+  max-height: 63vh;
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 img[alt="loader"] {
-	width: 15px;
-	height: 10px;
-	transform: rotate(180deg);
+  width: 15px;
+  height: 10px;
+  transform: rotate(180deg);
 }
 
 .none {
-	display: none;
+  display: none;
 }
 
 .grid {
-    float: right;
-    width: 100%;
-    margin-bottom: 10px;
+  float: right;
+  width: 100%;
+  margin-bottom: 10px;
 }
 .box {
-    height: 34px;
-    width: 100%;
-    float: right;
-    border-radius: 7px;
-    margin: 0 0 10px 0;
+  height: 34px;
+  width: 100%;
+  float: right;
+  border-radius: 7px;
+  margin: 0 0 10px 0;
 }
 .shimmerBG {
-    animation-duration: 2.2s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-name: shimmer;
-    animation-timing-function: linear;
-    background: #ddd;
-    background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
-    background-size: 1200px 100%;
+  animation-duration: 2.2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: shimmer;
+  animation-timing-function: linear;
+  background: #ddd;
+  background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+  background-size: 1200px 100%;
 }
 @keyframes shimmer {
-    0% {
-        background-position: -1200px 0;
-    }
+  0% {
+    background-position: -1200px 0;
+  }
 
-    100% {
-        background-position: 1200px 0;
-    }
+  100% {
+    background-position: 1200px 0;
+  }
 }
 
 .myList {
-    float: right;
-    width: 100%;
+  float: right;
+  width: 100%;
 }
 .myList .input-group {
-    float: right;
-    width: 100%;
-    margin-bottom: 7px;
+  float: right;
+  width: 100%;
+  margin-bottom: 7px;
 }
 .myList .input-group .form-control {
-    float: left;
-    border-radius: 3px 0 0 3px;
-    margin: 0;
-    background: #fff;
-    direction: ltr;
-    text-align: left;
+  float: left;
+  border-radius: 3px 0 0 3px;
+  margin: 0;
+  background: #fff;
+  direction: ltr;
+  text-align: left;
 }
 .myList .input-group .input-group-btn button {
-    float: right;
-    border-radius: 0 3px 3px 0;
-    width: 100%;
-    margin: 0;
-    border-left: 0;
+  float: right;
+  border-radius: 0 3px 3px 0;
+  width: 100%;
+  margin: 0;
+  border-left: 0;
 }
 .myList p {
-    float: right;
-    width: 100%;
-    text-align: center;
-    direction: rtl;
-    font-size: 13px;
-    opacity: 0.6;
+  float: right;
+  width: 100%;
+  text-align: center;
+  direction: rtl;
+  font-size: 13px;
+  opacity: 0.6;
 }
 
 footer {
-	padding: 10px 0;
-	/*position: fixed;
+  padding: 10px 0;
+  /*position: fixed;
 	bottom: 0;
 	right: 0;*/
-	float: right;
-	width: 100%;
-	line-height: 20px;
+  float: right;
+  width: 100%;
+  line-height: 20px;
 }
 footer p {
-	float: right;
-	width: 100%;
-	text-align: center;
-	font-size: 13px;
+  float: right;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
 }
 
-@media(max-width:700px) {
-	body,
-	.container {
-		padding-right: 0;
-		padding-left: 0;
-	}
-	.fullBox .rightSide {
-		width: 50%;
-		padding-left: 10px;
-	}
-	.fullBox .leftSide {
-		width: 50%;
-	}
-	.fullBox .leftSide textarea {
-		height: 255px;
-	}
-    .box {
-        height: 70px;
-    }
+@media (max-width: 700px) {
+  body,
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .fullBox .rightSide {
+    width: 50%;
+    padding-left: 10px;
+  }
+  .fullBox .leftSide {
+    width: 50%;
+  }
+  .fullBox .leftSide textarea {
+    height: 255px;
+  }
+  .box {
+    height: 70px;
+  }
 }
 
-@media(max-width:500px) {
-	.fullBox .rightSide {
-		width: 100%;
-		padding-left: 0;
-	}
-	.fullBox .leftSide {
-		width: 100%;
-	}
-	.fullBox .leftSide textarea {
-		margin-top: 10px;
-		height: 70px;
-	}
-    .box {
-        height: 50px;
-    }
+@media (max-width: 500px) {
+  .fullBox .rightSide {
+    width: 100%;
+    padding-left: 0;
+  }
+  .fullBox .leftSide {
+    width: 100%;
+  }
+  .fullBox .leftSide textarea {
+    margin-top: 10px;
+    height: 70px;
+  }
+  .box {
+    height: 50px;
+  }
 }
