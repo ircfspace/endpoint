@@ -80,6 +80,10 @@ window.addEventListener("load", function () {
           renderData(data.warp.ipv4);
         } else if (getType() === "w6" && data.warp.ipv6.length > 0) {
           renderData(data.warp.ipv6);
+        } else if (getType() === "m4" && data.masque.ipv4.length > 0) {
+          renderData(data.masque.ipv4);
+        } else if (getType() === "m6" && data.masque.ipv6.length > 0) {
+          renderData(data.masque.ipv6);
         } else {
           renderData(cachedData);
         }
