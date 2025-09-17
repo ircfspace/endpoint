@@ -43,11 +43,13 @@ function renderData(dataArray) {
       x++;
     }
   });
-  let loadMore = '<div class="clearfix"></div>';
-  loadMore +=
-    '<a class="btn btn-warning btn-block" href="https://github.com/ircfspace/endpoint/blob/main/ip.json" dir="rtl" target="_blank">';
-  loadMore += "مشاهده بیشتر";
-  loadMore += "</a>";
+  if (dataArray.length > 15) {
+    let loadMore = '<div class="clearfix"></div>';
+    loadMore +=
+      '<a class="btn btn-warning btn-block" href="https://github.com/ircfspace/endpoint/blob/main/ip.json" dir="rtl" target="_blank">';
+    loadMore += "مشاهده بیشتر";
+    loadMore += "</a>";
+  }
   $("#setContent").html(html + loadMore);
 }
 
